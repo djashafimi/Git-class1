@@ -1,0 +1,41 @@
+<script>
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Student extends Person {
+  constructor(name, grade) {
+    super(name); 
+    this.grade = grade;
+  }
+
+  showDetails() {
+    document.write("Name :"+ this.name+ " Grade:"+ this.grade);
+  }
+}
+
+obj = new Student("Anu", "A+");
+obj.showDetails();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
